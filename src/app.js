@@ -17,9 +17,8 @@ export const fromNodeStreamToObserverable = (stream, dataEventName, finishEventN
 
 // returns a write stream for writing to the resultant csv file
 export const getWriter = (currentDir, name) => {
-  const fileName = name.length ? name : 'result.csv';
+  const fileName = name instanceof String ? name : 'result.csv';
   const resultCsvFile = path.resolve(currentDir, fileName);
-  console.log('path: ', resultCsvFile);
   return fs.createWriteStream(resultCsvFile);
 };
 
@@ -42,7 +41,7 @@ export const readDirFiles = (directory, annex, prefix) => {
 };
 
 export default function main(currentDir) {
-  const rootPath = program.directory ? program.directory : currentDir;
+  const rootPath = program.directory instanceof String ? program.directory : currentDir;
   const writer = getWriter(rootPath, program.name);
   let tableHeaderRow = null;
   readDirFiles(rootPath, program.annex, program.prefix)
