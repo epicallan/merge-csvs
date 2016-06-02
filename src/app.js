@@ -2,6 +2,7 @@ import fs from 'fs';
 import readline from 'readline';
 import Rx from 'rxjs/Rx';
 import path from 'path';
+import program from './cli';
 
 export const fromNodeStreamToObserverable = (stream, dataEventName, finishEventName) =>
   (Rx.Observable.create(observer => {
@@ -15,9 +16,10 @@ export const fromNodeStreamToObserverable = (stream, dataEventName, finishEventN
   }));
 
 // returns a write stream for writing to the resultant csv file
-export const getWriter = (dir) => {
-  const resultCsvFile = dir ?
-    path.resolve(dir, 'merge.csv') : path.resolve(__dirname, 'merge.csv');
+export const getWriter = (currentDir, name) => {
+  const fileName = name.length ? name : 'result.csv';
+  const resultCsvFile = path.resolve(currentDir, fileName);
+  console.log('path: ', resultCsvFile);
   return fs.createWriteStream(resultCsvFile);
 };
 
@@ -40,11 +42,11 @@ export const readDirFiles = (dir, annex, prefix) => {
     .map(file => path.resolve(directory, file));
 };
 
-function main() {
-  const rootPath = program.directory || __dirname;
-  const writer = getWriter(rootPath, program.annex, program.prefix);
+export default function main(currentDir) {
+  const rootPath = program.directory ? program.directory : currentDir;
+  const writer = getWriter(rootPath, program.name);
   let tableHeaderRow = null;
-  readDirFiles(rootPath)
+  readDirFiles(rootPath, program.annex, program.prefix)
     .flatMap(file => readLineStream(file))
     .filter(line => {
       if (!tableHeaderRow) {
@@ -63,5 +65,3 @@ function main() {
       () => { console.log('done'); }
     );
 }
-
-if (process.env.NODE_ENV !== 'test') main();

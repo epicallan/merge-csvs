@@ -1,2 +1,3 @@
 #! /usr/local/bin/node
-require('./dist/app.js')
+var directory = process.cwd();
+require('./dist/app.js').default(directory);

@@ -5,7 +5,8 @@ module.exports = {
   target: 'node',
   output: {
     path: './dist',
-    filename: 'app.js'
+    filename: 'app.js',
+    libraryTarget: 'umd'
   },
   progress: true,
   module: {

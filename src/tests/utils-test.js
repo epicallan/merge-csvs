@@ -1,14 +1,12 @@
 import { expect } from 'chai';
 import path from 'path';
-import { readDirFiles, readLineStream, getWriter } from '../merge.js';
+import { readDirFiles, readLineStream, getWriter } from '../app.js';
 /* eslint-disable no-unused-expressions */
 describe('utils tests', () => {
-  const rootPath = path.resolve(__dirname, '../samples');
+  const rootPath = path.resolve(__dirname, '../../samples');
 
   it('should return a stream of files with the word test as a prefix', (done) => {
     const source = readDirFiles(rootPath, null, 'test');
-    // const source2 = readDirFiles('-2');
-    // const newSource = source.flatMap(files => Rx.Observable.from(files));
     source.subscribe(
       fileName => {
         const bool = fileName.includes('test');
