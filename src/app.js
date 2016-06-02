@@ -30,9 +30,8 @@ export const readLineStream = (filePath) => {
 };
 
 // returns a stream of files from a specified directory or current directory
-export const readDirFiles = (dir, annex, prefix) => {
+export const readDirFiles = (directory, annex, prefix) => {
   let re = new RegExp('.csv$');
-  const directory = dir || __dirname;
   if (annex) re = new RegExp(`(${annex})(?=\.csv$)`);
   if (prefix) re = new RegExp(`(^${prefix})(?=.*\.csv$)`);
   const stream = Rx.Observable.bindNodeCallback(fs.readdir);
