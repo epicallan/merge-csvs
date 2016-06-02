@@ -22,8 +22,6 @@ describe('utils tests', () => {
 
   it('should return a stream of files with the -2 as an annex', (done) => {
     const source = readDirFiles(rootPath, '-2');
-    // const source2 = readDirFiles('-2');
-    // const newSource = source.flatMap(files => Rx.Observable.from(files));
     source.subscribe(
       fileName => {
         const bool = fileName.includes('-2');
@@ -51,7 +49,6 @@ describe('utils tests', () => {
   });
 
   it('should return lines from readline Observable', (done) => {
-    // const writer = getWriter(rootPath);
     const file = path.resolve(rootPath, 'test1.csv');
     readLineStream(file).subscribe(
       lineToWrite => {
@@ -66,7 +63,7 @@ describe('utils tests', () => {
   });
 
   it('should write lines from a stream of files to a csv file', (done) => {
-    const writer = getWriter(rootPath, null, 'test');
+    const writer = getWriter(rootPath);
     let tableHeaderRow = null;
     readDirFiles(rootPath)
       .flatMap(file => readLineStream(file))
