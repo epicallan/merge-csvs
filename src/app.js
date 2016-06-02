@@ -4,7 +4,7 @@ import Rx from 'rxjs/Rx';
 import path from 'path';
 import program from './cli';
 
-export const fromNodeStreamToObserverable = (stream, dataEventName, finishEventName) =>
+export const fromNodeStreamToObserveable = (stream, dataEventName, finishEventName) =>
   (Rx.Observable.create(observer => {
     stream.addListener(dataEventName, data => observer.next(data));
     stream.addListener('error', error => observer.error(error));
@@ -25,7 +25,7 @@ export const getWriter = (currentDir, name) => {
 // Rx Observable that reads csv file by line and emits the lines as a stream
 export const readLineStream = (filePath) => {
   const rl = readline.createInterface({ input: fs.createReadStream(filePath) });
-  return fromNodeStreamToObserverable(rl, 'line', 'close');
+  return fromNodeStreamToObserveable(rl, 'line', 'close');
 };
 
 // returns a stream of files from a specified directory or current directory
