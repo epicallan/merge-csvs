@@ -42,7 +42,7 @@ CD / move into the directory with the csvs you want to merge and run
 
 ## Note
 
-> Make sure you have the right path to the nodeJs executable in the [index.js file](https://github.com/epicallan/uganda-budget-data/blob/master/index.js#L1)
+> Make sure you have the right path to the nodeJs executable in the [index.js file](https://github.com/epicallan/merge-csvs/blob/master/index.js#L1)
 
 ## License
 MIT © [Allan](http://github.com/epicallan)
