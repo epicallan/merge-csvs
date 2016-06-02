@@ -48,7 +48,7 @@ describe('utils tests', () => {
     );
   });
 
-  it('should return lines from readline Observable', (done) => {
+  it('should return lines from the readline Observable', (done) => {
     const file = path.resolve(rootPath, 'test1.csv');
     readLineStream(file).subscribe(
       lineToWrite => {
