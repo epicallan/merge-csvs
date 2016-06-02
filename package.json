@@ -1,6 +1,6 @@
 {
   "name": "merge-csvs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Merges multiple csvs in a directory",
   "main": "index.js",
   "scripts": {

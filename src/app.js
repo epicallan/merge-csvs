@@ -45,8 +45,8 @@ export default function main(currentDir) {
   const writer = getWriter(rootPath, program.name);
   let tableHeaderRow = null;
   readDirFiles(rootPath, program.annex, program.prefix)
-    .flatMap(file => readLineStream(file))
-    .filter(line => {
+    .flatMap(file => readLineStream(file)) // returns files
+    .filter(line => {  // returns lines from files
       if (!tableHeaderRow) {
         tableHeaderRow = line; // the tableHeaderRow is the very first line
         return true;

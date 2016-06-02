@@ -163,17 +163,6 @@ Ministry of Water and Environment,Overview of Vote Expenditures,GoU Total, 181.4
 Ministry of Water and Environment,Overview of Vote Expenditures,Total GoU+Ext Fin. (MTEF), 337.211, N/A, 242.419,226.523, 71.9%,67.2%,93.4%
 Ministry of Water and Environment,Overview of Vote Expenditures,Arrears, 0.000,N/A,0.000,0.000,N/A, N/A, N/A
 Ministry of Water and Environment,Overview of Vote Expenditures, Taxes, 3.532,N/A,2.610,2.610,73.9%, 73.9%, 100.0%
-Fort Portal Referral Hospital,Overview of Vote Expenditures,Wage,3.432,3.090,2.998,2.998,87.3%, 87.3%, 100.0%
-Fort Portal Referral Hospital,Overview of Vote Expenditures,Non Wage,1.306,1.473,1.365,1.353, 104.5%, 103.7%, 99.2%
-Fort Portal Referral Hospital,Overview of Vote Expenditures,GoU, 0.700,0.700,0.700,0.700, 100.0%, 100.0%, 99.9%
-Fort Portal Referral Hospital,Overview of Vote Expenditures,Donor*,0.000, N/A, 0.000,0.000,N/A,N/A,N/A
-Fort Portal Referral Hospital,Overview of Vote Expenditures,GoU Total, 5.438,5.262,5.063,5.051,93.1%, 92.9%,99.8%
-Fort Portal Referral Hospital,Overview of Vote Expenditures, Total GoU+Donor (MTEF), 5.438, N/A, 5.063,5.051,93.1%, 92.9%,99.8%
-Fort Portal Referral Hospital,Overview of Vote Expenditures,Arrears, 0.000,N/A,0.000,0.000,N/A, N/A, N/A
-Fort Portal Referral Hospital,Overview of Vote Expenditures, Taxes**, 0.000,N/A,0.000,0.000,N/A, N/A, N/A
-Fort Portal Referral Hospital,Overview of Vote Expenditures, Total Budget, 5.438,5.262,5.063,5.051,93.1%, 92.9%,99.8%
-Fort Portal Referral Hospital,Overview of Vote Expenditures, (iii) Non Tax Revenue,0.200,N/A,0.150,0.142,75.1%, 70.8%,94.3%
-Fort Portal Referral Hospital,Overview of Vote Expenditures,Grand Total, 5.638,5.262,5.213,5.192,92.5%, 92.1%,99.6%
 Vote Name,Table Name,Sector,Approved Budget,released,spent,% Budget released,% budget spent,% releases spent
 Arua Referral Hospital,GoU Releases and Expenditure by Output,VF:0856 Regional Referral Hospital Services,5.36,5.37, 5.40,100.2%,100.7%, 100.5%
 Arua Referral Hospital,GoU Releases and Expenditure by Output,Class: Outputs Provided,4.36,4.37, 4.40,100.3%,101.1%, 100.8%
@@ -679,6 +668,17 @@ Mbale Referral Hospital,GoU Expenditure by Item,Total Excluding Taxes and Arrear
 Mbale Referral Hospital,GoU Releases and Expenditure by Project and Programme,VF:0856 Regional Referral Hospital Services, 6.51, 6.66, 5.78, 102.4%, 88.8%,86.7%
 Mbale Referral Hospital,Highlights of Vote Performance,01  Mbale Referral Hospital Services,5.32, 5.59, 5.05,105.1%, 94.8%,90.2%
 Mbale Referral Hospital,Highlights of Vote Performance,02  Mbale Referral Hospital Internal Audit,0.02, 0.02, 0.02, 82.7%, 81.1%,98.1%
+Fort Portal Referral Hospital,Overview of Vote Expenditures,Wage,3.432,3.090,2.998,2.998,87.3%, 87.3%, 100.0%
+Fort Portal Referral Hospital,Overview of Vote Expenditures,Non Wage,1.306,1.473,1.365,1.353, 104.5%, 103.7%, 99.2%
+Fort Portal Referral Hospital,Overview of Vote Expenditures,GoU, 0.700,0.700,0.700,0.700, 100.0%, 100.0%, 99.9%
+Fort Portal Referral Hospital,Overview of Vote Expenditures,Donor*,0.000, N/A, 0.000,0.000,N/A,N/A,N/A
+Fort Portal Referral Hospital,Overview of Vote Expenditures,GoU Total, 5.438,5.262,5.063,5.051,93.1%, 92.9%,99.8%
+Fort Portal Referral Hospital,Overview of Vote Expenditures, Total GoU+Donor (MTEF), 5.438, N/A, 5.063,5.051,93.1%, 92.9%,99.8%
+Fort Portal Referral Hospital,Overview of Vote Expenditures,Arrears, 0.000,N/A,0.000,0.000,N/A, N/A, N/A
+Fort Portal Referral Hospital,Overview of Vote Expenditures, Taxes**, 0.000,N/A,0.000,0.000,N/A, N/A, N/A
+Fort Portal Referral Hospital,Overview of Vote Expenditures, Total Budget, 5.438,5.262,5.063,5.051,93.1%, 92.9%,99.8%
+Fort Portal Referral Hospital,Overview of Vote Expenditures, (iii) Non Tax Revenue,0.200,N/A,0.150,0.142,75.1%, 70.8%,94.3%
+Fort Portal Referral Hospital,Overview of Vote Expenditures,Grand Total, 5.638,5.262,5.213,5.192,92.5%, 92.1%,99.6%
 Hoima Referral Hospital,Overview of Vote Expenditures,Wage,2.458,2.233,2.294,2.290,93.3%,93.2%, 99.8%
 Hoima Referral Hospital,Overview of Vote Expenditures,Non Wage,0.963,1.185,1.019,0.971, 105.8%,100.8%,95.3%
 Hoima Referral Hospital,Overview of Vote Expenditures,GoU, 1.200,1.200,1.200,1.198, 100.0%,99.9%, 99.9%
@@ -703,7 +703,6 @@ Jinja Referral Hospital,Overview of Vote Expenditures, Total Budget, 6.017,5.815
 Jinja Referral Hospital,Overview of Vote Expenditures, (iii) Non Tax Revenue,0.291,N/A,0.230,0.230,79.3%, 79.3%, 100.0%
 Jinja Referral Hospital,Overview of Vote Expenditures,Grand Total, 6.307,5.815,6.339,6.055,100.5%,96.0%,95.5%
 Ministry of Water and Environment,Overview of Vote Expenditures, Total Budget, 340.742, 162.409, 245.029,229.133, 71.9%,67.2%,93.5%
-Fort Portal Referral Hospital,Overview of Vote Expenditures,"Excluding Taxes, Arrears",5.638,5.262,5.213,5.192,92.5%, 92.1%,99.6%
 Mbale Referral Hospital,Highlights of Vote Performance,03  Mbale Regional Maintenance,0.36, 0.33, 0.31, 92.2%, 86.2%,93.5%
 Mbale Referral Hospital,Highlights of Vote Performance,1004 Mbale Rehabilitation Referral Hospital,0.80, 0.72, 0.40, 90.0%, 49.9%,55.5%
 Mbale Referral Hospital,Highlights of Vote Performance, Total For Vote,6.51,6.66,5.78,102.4%, 88.8%,86.7%
@@ -1095,5 +1094,6 @@ Ministry of Water and Environment,Releases and Expenditure by Vote Function,VF:0
 Ministry of Water and Environment,Releases and Expenditure by Vote Function,VF:0905 Natural Resources Management,31.49, 22.29, 22.12, 70.8%,70.3%, 99.3%
 Ministry of Water and Environment,Releases and Expenditure by Vote Function,"VF:0906 Weather, Climate and Climate Change",7.83,6.50,6.25, 83.0%,79.9%, 96.3%
 Ministry of Water and Environment,Releases and Expenditure by Vote Function,"VF:0949 Policy, Planning and Support Services", 18.68, 22.50, 21.77,120.4%, 116.5%, 96.7%
+Fort Portal Referral Hospital,Overview of Vote Expenditures,"Excluding Taxes, Arrears",5.638,5.262,5.213,5.192,92.5%, 92.1%,99.6%
 Jinja Referral Hospital,Overview of Vote Expenditures,"Excluding Taxes, Arrears",5.864,5.815,5.896,5.612, 100.5%, 95.7%,95.2%
 Ministry of Water and Environment,Releases and Expenditure by Vote Function, Total For Vote,337.21,242.42,226.52, 71.9%,67.2%, 93.4%
