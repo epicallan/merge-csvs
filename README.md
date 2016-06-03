@@ -8,7 +8,19 @@
   ```
   $ merge-csvs --prefix test
   ```
+# Options
+```
+Usage: merge-csvs [options]
 
+ Options:
+
+   -h, --help                   output usage information
+   -V, --version                output the version number
+   -d, --directory [directory]  Specify a directory default is current directory
+   -p, --prefix [prefix]        Specify a file prefix default is none
+   -a, --annex [annex]          Specify a file annex eg -test or -2
+   -n, --name [name]            Specify the resultant file name default is result.csv
+```
 
 ## Installation for development
 
