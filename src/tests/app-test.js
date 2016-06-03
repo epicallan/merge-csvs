@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import path from 'path';
 import { readDirFiles, readLineStream, getWriter } from '../app.js';
 /* eslint-disable no-unused-expressions */
-describe('utils tests', () => {
+describe('App tests', () => {
   const rootPath = path.resolve(__dirname, '../../samples');
 
   it('should return a stream of files with the word test as a prefix', (done) => {
