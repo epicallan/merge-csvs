@@ -41,12 +41,9 @@ $ merge-csvs
 ## Run in Production
 Adds the module's main script to your systems path(See the bin key in package.json)
 ```
-$  npm install -g
+$  npm run build && npm link
 ```
 
-```
-$  npm run build
-```
 CD / move into the directory with the csvs you want to merge and run
 
 ```
